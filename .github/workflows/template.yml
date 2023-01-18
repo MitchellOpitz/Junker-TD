@@ -208,7 +208,7 @@ jobs:
        env:
          BUTLER_CREDENTIALS: ${{ secrets.ITCH_IO_API_KEY }}
          CHANNEL: HTML
-         ITCH_GAME: phantasia-game-jam
+         ITCH_GAME: junker-td
          ITCH_USER: mitchellopitz
          BRANCH: itch-io
          PACKAGE: build/WebGL
