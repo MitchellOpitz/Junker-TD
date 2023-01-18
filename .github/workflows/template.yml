@@ -4,6 +4,8 @@ on: push
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+  ITCH_USERNAME: mitchellopitz
+  ITCH_GAME_ID: junker-td
 
 jobs:
  # testRunner:
@@ -181,9 +183,6 @@ jobs:
 #          path: build/Android
 #
 #
-env:
-  ITCH_USERNAME: mitchellopitz
-  ITCH_GAME_ID: junker-td
 deployPages:
     name: Upload to Itch
     runs-on: ubuntu-latest
