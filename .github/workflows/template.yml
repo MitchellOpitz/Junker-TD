@@ -181,7 +181,6 @@ jobs:
 #          path: build/Android
 #
 #
-on: push
 env:
   ITCH_USERNAME: mitchellopitz
   ITCH_GAME_ID: junker-td
